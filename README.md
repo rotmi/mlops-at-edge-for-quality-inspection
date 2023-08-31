@@ -6,6 +6,8 @@ This is a sample implementation for an end-to-end MLOps pipeline for quality ins
 - [Training](./training/) - Training and evaluation of the bounding box detection model using Amazon SageMaker
 - [Inference](./inference/) - Compilation, Packaging and Deployment of the model to an edge device for inference running AWS Greengrass.
 
+sdfsdf
+
 Deployment of each of these pipeline components is fully automated using AWS CodePipeline and AWS CDK. Each component is implemented as separate CDK app and pipeline in AWS CodePipeline. This allows deploying Labeling, Training and Inference separately in case you want to dive deeper into each of these aspects individually.
 
 ## Pre-requisite
